@@ -47,7 +47,7 @@ function ExpenseTracker() {
     }catch(err){
       throw err
     }
-    navigate('/auth')
+    navigate('/')
 
   }
 

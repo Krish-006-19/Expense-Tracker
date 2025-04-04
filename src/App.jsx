@@ -8,7 +8,7 @@ function App() {
     <div className='w-full h-full'>
       <Router>
         <Routes>
-          <Route path='/auth' element={<Auth/>}/>
+          <Route path='/' element={<Auth/>}/>
           <Route path='/expense-tracker' exact element={<ExpenseTracker/>}/>
         </Routes>
       </Router>

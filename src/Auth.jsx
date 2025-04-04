@@ -1,11 +1,10 @@
 import React from "react";
 import { auth, provider } from "./config/firebase-config";
 import { signInWithPopup } from "firebase/auth";
-import { useNavigate } from "react-router-dom";
-
+import { useNavigate, Navigate } from "react-router-dom";
+import { useInfo } from "./hooks/useInfo";
 function Auth() {
-  let navigate = useNavigate();
-  
+  let navigate = useNavigate()
   let signInGoogle = async () => {
     try {
       let results = await signInWithPopup(auth, provider);
@@ -16,9 +15,9 @@ function Auth() {
         isLogged: true,
       };
       localStorage.setItem("auth", JSON.stringify(authInfo));
-      navigate("/expense-tracker");
+      navigate("/expense-tracker")
     } catch (error) {
-      console.error("Error signing in:", error);
+      console.error("Error signing in:", error)
     }
   };
 

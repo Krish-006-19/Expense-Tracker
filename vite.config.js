@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base:'/auth',
+  base:'./',
   server: {
     historyApiFallback: true,
   }
