@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base:'./',
+  base:'/',
   server: {
     historyApiFallback: true,
   }
