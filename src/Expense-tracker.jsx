@@ -29,8 +29,7 @@ function ExpenseTracker() {
 
   let income = 0,
     expense = 0;
-  transaction?.forEach((data) => {
-    let { transAmount, transType } = data;
+  transaction?.forEach(({ transAmount, transType }) => {
     if (transType === "income") {
       income += Number(transAmount);
     } else {
