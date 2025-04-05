@@ -1,7 +1,6 @@
-import React from "react";
 import { auth, provider } from "./config/firebase-config";
 import { signInWithPopup } from "firebase/auth";
-import { useNavigate, Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useInfo } from "./hooks/useInfo";
 function Auth() {
   let navigate = useNavigate()
