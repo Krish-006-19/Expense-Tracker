@@ -138,8 +138,7 @@ function ExpenseTracker() {
             </tr>
           </thead>
           <tbody>
-            {transaction?.map((trans) => {
-              let { id, description, transAmount, transType } = trans;
+            {transaction?.map(({ id, description, transAmount, transType }) => {
               return (
                 <tr key={id} className="border-t border-white border-opacity-20">
                   <td className="px-4 py-2">{description}</td>
