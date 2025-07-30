@@ -19,10 +19,11 @@ A modern web app that lets you **track daily expenses**, securely save them to t
 
 ## 🧩 Demo & Preview
 Live demo is available on this website
-https://krish-006-19.github.io/CAR1/
+https://expense-tracker-88d58.firebaseapp.com/
 
 
-<img width="899" height="460" alt="image" src="https://github.com/user-attachments/assets/6b542d0c-deaf-46dd-baa2-c9374d2d239b" />
+<img width="900" height="882" alt="image" src="https://github.com/user-attachments/assets/afaa373f-d760-4507-b0ec-2da786584d53" />
+
 
 
 ---
