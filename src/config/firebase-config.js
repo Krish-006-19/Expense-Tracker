@@ -3,12 +3,12 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth"
 import { getFirestore } from "firebase/firestore"
 
 let firebaseConfig = {
-  apiKey: "AIzaSyCLMY_YK3FzpHWu_EeogYJ-RuucJag5M6Q",
+  apiKey: "A****************************Q",
   authDomain: "expense-tracker-88d58.firebaseapp.com",
   projectId: "expense-tracker-88d58",
   storageBucket: "expense-tracker-88d58.firebasestorage.app",
-  messagingSenderId: "651441421391",
-  appId: "1:651441421391:web:b8a81a68c35fdcfd1a3e3a",
+  messagingSenderId: "651******",
+  appId: "1***************************a",
   measurementId: "G-EM3T0K75G8"
 }
 
